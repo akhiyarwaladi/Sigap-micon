@@ -100,6 +100,8 @@ int main() {
 				awal = temp;
 				sendDataToServer(HPSp, HPc[1], __Uk[1], OpTime);
 				sleep(sleepp);
+				__Uk[1] = 0;
+				sendDataToServer(HPSp, HPc[1], __Uk[1], OpTime);
 			}
 			
 			else{
